@@ -4,7 +4,6 @@
 clear; clc; close;
 
 % Load the data
-
 load('../Data for Distance Functions/M1_Reduced-DeepSquat.mat');
 
 % timesteps

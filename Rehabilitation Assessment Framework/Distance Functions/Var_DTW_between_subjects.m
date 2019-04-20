@@ -4,8 +4,8 @@
 clear; clc; close;
 
 % Load the data for DeepSquat
-
-load('../Data for Distance Functions/M1-DeepSquat.mat');
+load('../Data for Distance Functions/M1-DeepSquat-Correct.mat');
+load('../Data for Distance Functions/M1-DeepSquat-Incorrect.mat');
 
 % timesteps
 T1 = size(Train_Data{1},1);
